@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Paella Valenciana",
+    "ingredients": "Arroz, pollo, conejo, judías verdes, tomate, garrofón, azafrán",
+    "price": 12,
+    "photoName": "paella_valenciana.jpg",
+    "soldOut": false
+  },
+  {
+    "name": "Tortilla Española",
+    "ingredients": "Huevos, patatas, cebolla, aceite de oliva",
+    "price": 8,
+    "photoName": "tortilla_espanola.jpeg",
+    "soldOut": false
+  },
+  {
+    "name": "Gazpacho",
+    "ingredients": "Tomate, pepino, pimiento, cebolla, ajo, aceite de oliva, vinagre",
+    "price": 6,
+    "photoName": "gazpacho.jpg",
+    "soldOut": true
+  },
+  {
+    "name": "Pulpo a la Gallega",
+    "ingredients": "Pulpo, pimentón, aceite de oliva, sal gorda",
+    "price": 15,
+    "photoName": "pulpo_gallega.jpg",
+    "soldOut": false
+  },
+  {
+    "name": "Patatas Bravas",
+    "ingredients": "Patatas, salsa brava (tomate, pimentón, aceite de oliva, vinagre, ajo, sal)",
+    "price": 7,
+    "photoName": "patatas_bravas.jpg",
+    "soldOut": false
+  },
+  {
+    "name": "Crema Catalana",
+    "ingredients": "Yemas de huevo, leche, azúcar, maicena, canela, piel de limón",
+    "price": 5,
+    "photoName": "crema_catalana.jpg",
+    "soldOut": false
+  }
+]
