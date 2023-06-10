@@ -9,10 +9,16 @@ export default function Footer() {
   return (
     <footer>
       <div className="footer">
-        <p>
-          {hours_minutes} We're currently {open}
-        </p>
-        <p>© 2021 Spanish Restaurant Co.</p>
+        {open === "open" && (
+          <div className="order">
+            <p>
+              {hours_minutes} We're currently {open}
+            </p>
+            <button className="btn">Order</button>
+          </div>
+        )}
+
+        <p className="footer__copyright">© 2021 Spanish Restaurant Co.</p>
       </div>
     </footer>
   );

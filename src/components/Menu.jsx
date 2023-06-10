@@ -18,11 +18,11 @@ export default function Menu() {
   return (
     <div className="menu">
       <h2>Our menu </h2>
-      <div className="menu__elements">
+      <ul className="menu__elements">
         {menuElements.map((menuElement) => (
-          <MenuElement key={menuElement.id} menuElement={menuElement} />
+          <MenuElement key={menuElement.name} menuElement={menuElement} />
         ))}
-      </div>
+      </ul>
     </div>
   );
 }

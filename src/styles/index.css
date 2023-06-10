@@ -162,6 +162,10 @@ body {
   gap: 2.4rem;
 }
 
+.footer__copyright {
+  margin: 1.6rem 0;
+}
+
 .btn {
   color: inherit;
   font-family: inherit;
